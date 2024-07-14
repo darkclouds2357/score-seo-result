@@ -1,0 +1,32 @@
+version: '3.8'
+
+services:
+  dbeaver:
+    image: dbeaver/cloudbeaver:latest
+    container_name: dbeaver
+    ports:
+      - "8080:8978"
+    environment:
+      - CB_DB_SERVER_NAME=sqlserver
+    networks:
+      - internal_network
+
+  sqlserver:
+    image: mcr.microsoft.com/mssql/server:2019-latest
+    container_name: sqlserver
+    environment:
+      SA_PASSWORD: "!QA2ws3ed"
+      ACCEPT_EULA: "Y"
+    ports:
+      - "1433:1433"
+    # volumes:
+    #   - sqlserver_data:/var/opt/mssql
+    networks:
+      - internal_network
+
+# volumes:
+#   sqlserver_data:
+
+networks:
+  internal_network:
+    driver: bridge

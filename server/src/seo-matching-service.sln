@@ -1,0 +1,64 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34309.116
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SeoMatchingService", "SeoMatchingService\SeoMatchingService.csproj", "{C32F80B3-A5EE-499F-9C33-B3E6F88DDA3F}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SeoMatchingService.SearchEngine.Google", "SearchEngine\SeoMatchingService.SearchEngine.Google\SeoMatchingService.SearchEngine.Google.csproj", "{AE299280-A5E8-4AC4-89CD-DBFD35F1AF1D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SearchEngine", "SearchEngine", "{A134D281-BEE1-4474-A7D6-173AEC82770E}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SeoMatchingService.SearchEngine", "SearchEngine\SeoMatchingService.SearchEngine\SeoMatchingService.SearchEngine.csproj", "{E55B1BCF-44BE-4F5E-AFF1-FF2E1A15D5BB}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SeoMatchingService.SearchEngine.AskDotCom", "SearchEngine\SeoMatchingService.SearchEngine.AskDotCom\SeoMatchingService.SearchEngine.AskDotCom.csproj", "{7FCC5EBA-C7DD-4469-BAFC-0900A50A9F49}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SeoMatchingService.SearchEngine.Bing", "SearchEngine\SeoMatchingService.SearchEngine.Bing\SeoMatchingService.SearchEngine.Bing.csproj", "{09557B9B-12CE-4340-BD04-FB93FF512230}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SeoMatchingService.SearchEngine.DuckDuckGo", "SearchEngine\SeoMatchingService.SearchEngine.DuckDuckGo\SeoMatchingService.SearchEngine.DuckDuckGo.csproj", "{A40F6BA0-E1B4-4B03-9ABE-728C5E6CE61B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C32F80B3-A5EE-499F-9C33-B3E6F88DDA3F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C32F80B3-A5EE-499F-9C33-B3E6F88DDA3F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C32F80B3-A5EE-499F-9C33-B3E6F88DDA3F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C32F80B3-A5EE-499F-9C33-B3E6F88DDA3F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AE299280-A5E8-4AC4-89CD-DBFD35F1AF1D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AE299280-A5E8-4AC4-89CD-DBFD35F1AF1D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AE299280-A5E8-4AC4-89CD-DBFD35F1AF1D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AE299280-A5E8-4AC4-89CD-DBFD35F1AF1D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E55B1BCF-44BE-4F5E-AFF1-FF2E1A15D5BB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E55B1BCF-44BE-4F5E-AFF1-FF2E1A15D5BB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E55B1BCF-44BE-4F5E-AFF1-FF2E1A15D5BB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E55B1BCF-44BE-4F5E-AFF1-FF2E1A15D5BB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7FCC5EBA-C7DD-4469-BAFC-0900A50A9F49}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7FCC5EBA-C7DD-4469-BAFC-0900A50A9F49}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7FCC5EBA-C7DD-4469-BAFC-0900A50A9F49}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7FCC5EBA-C7DD-4469-BAFC-0900A50A9F49}.Release|Any CPU.Build.0 = Release|Any CPU
+		{09557B9B-12CE-4340-BD04-FB93FF512230}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{09557B9B-12CE-4340-BD04-FB93FF512230}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{09557B9B-12CE-4340-BD04-FB93FF512230}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{09557B9B-12CE-4340-BD04-FB93FF512230}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A40F6BA0-E1B4-4B03-9ABE-728C5E6CE61B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A40F6BA0-E1B4-4B03-9ABE-728C5E6CE61B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A40F6BA0-E1B4-4B03-9ABE-728C5E6CE61B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A40F6BA0-E1B4-4B03-9ABE-728C5E6CE61B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{AE299280-A5E8-4AC4-89CD-DBFD35F1AF1D} = {A134D281-BEE1-4474-A7D6-173AEC82770E}
+		{E55B1BCF-44BE-4F5E-AFF1-FF2E1A15D5BB} = {A134D281-BEE1-4474-A7D6-173AEC82770E}
+		{7FCC5EBA-C7DD-4469-BAFC-0900A50A9F49} = {A134D281-BEE1-4474-A7D6-173AEC82770E}
+		{09557B9B-12CE-4340-BD04-FB93FF512230} = {A134D281-BEE1-4474-A7D6-173AEC82770E}
+		{A40F6BA0-E1B4-4B03-9ABE-728C5E6CE61B} = {A134D281-BEE1-4474-A7D6-173AEC82770E}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {AD956A7B-9CC7-49DF-ADCD-A86EA508E92E}
+	EndGlobalSection
+EndGlobal

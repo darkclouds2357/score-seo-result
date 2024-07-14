@@ -1,0 +1,14 @@
+{
+  "profiles": {
+    "SeoMatchingService": {
+      "commandName": "Project",
+      "launchBrowser": true,
+      "launchUrl": "index.html",
+      "environmentVariables": {
+      },
+      "dotnetRunMessages": true,
+      "applicationUrl": "http://localhost:5000"
+    }
+  },
+  "$schema": "https://json.schemastore.org/launchsettings.json"
+}
